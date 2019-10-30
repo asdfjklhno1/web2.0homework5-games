@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: larger;
+}
+p{
+    font-size: smaller;
+}
+
+.positioner{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 650px;
+    height: 450px;
+    border: 1px solid black;
+}
+.header{
+    text-align: center;
+}
+.func{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+.rightSide{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+#time,#score{
+    width: 40px;
+}
+
+
+
+.gameArea{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.footer{
+    width: 550px;
+    margin: 0 auto;
+}
+span.bold{
+    font-weight: bold;
+}
